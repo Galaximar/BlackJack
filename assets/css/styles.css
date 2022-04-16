@@ -1,0 +1,40 @@
+html, body {
+    margin: 0px;
+    background-color: #ffb300;
+    color: #e0e0e0;
+}
+
+
+#divBotones{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.titulo {
+    text-align: center;
+    background-color: #424242;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
+::-webkit-scrollbar{
+    background-color: #e0e0e0;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #424242;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ff8f00;
+}
